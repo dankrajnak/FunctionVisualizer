@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+canvas{
+    height:100%;
+    width: 100%;
+    margin: none;
+    position: fixed;
+}
+
+#functionInput {
+    border: solid white 1px;
+    position: absolute;
+    z-index: 5;
+    bottom: 10px;
+    left: 100px;
+    background: none;
+    color: white;
+    padding: 40px;
+    font-size: 2em;
+}

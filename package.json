@@ -1,0 +1,36 @@
+{
+    "name": "functionvisualizer",
+    "version": "1.0.0",
+    "description": "A feeble attempt to visualize functions with HTML Canvas",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Daniel Krajnak",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-flow": "^6.23.0",
+        "babelify": "^8.0.0",
+        "browserify": "^15.0.0",
+        "flow": "^0.2.3",
+        "flow-bin": "^0.63.1",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^7.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-requirejs-bundle": "^0.2.2",
+        "gulp-uglify": "^3.0.0",
+        "mathjs": "^3.20.2",
+        "run-sequence": "^2.2.1",
+        "vinyl-source-stream": "^2.0.0"
+    },
+    "babel": {
+        "presets": [
+            "env",
+            "flow"
+        ]
+    }
+}
